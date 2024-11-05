@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Contact Page</title>
+    <style>
+ .navbar{
+               text-align: center;
+               background-color: rgb(200, 245, 230);
+               padding-left: 0;
+               padding-right: 0;
+               color: aqua;
+            
+               
+             }
+             .navbar:hover {
+                color: blueviolet;
+             }
+             .navbar li:active{
+                color: blueviolet;
+             }
+
+             .navbar ol{
+                list-style-type: none;
+                display: flex;
+                justify-content: space-between;
+                margin: 0;
+                
+             }
+
+             .navbar li {
+                flex-grow: 1;
+                font-size: 15px;
+                padding-top: 5px;
+                font-family: "Poppins", sans-serif;
+                font-weight: 100;
+                font-style: normal;
+               
+             }
+             .l1 {
+             
+             border-radius: 20px;
+             background-color: skyblue;
+             text-decoration: underline;
+             }
+
+         .but {
+            background-color: blue;
+            border-radius: 20px;
+            color: white;
+            font-weight: 400;
+            margin-top: 20px;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 49% 19% ;
+            grid-column-gap: 150px;
+            background-color:rgb(205, 245, 145);
+            padding: 20px;
+            font-family: "Pacifico", cursive;
+            font-weight: 400;
+            font-style: normal;
+            
+            
+        }
+        .form{
+            background-color: rgb(172, 246, 62); 
+            border-style: solid;
+            padding: 20px;
+            padding-left: 50px;
+            padding-right: 40px ;
+            margin: -10px;
+            border-radius: 30px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <ol>
+            <li>
+               Fun Daycare
+            </li>
+            <li> 
+            <a href="/Task 2 Website/index.html">Home</a>    
+            </li>
+            <li>
+            <a href="/Task 2 Website/About.html">About</a>
+            </li>
+            <li>
+            <a href="/Task 2 Website/About.html">Contact</a>
+            </li>
+            <li>
+            <a href="/Task 2 Website/gallery.html">Gallery</a>    
+            </li>
+            <li >
+                <a  href="#"><button class="l1">Join Class</button></a>    
+                </li>
+        </ol>
+    </div>
+
+
+<div class="main">
+    <div>
+          <h3>Full Stack Developer Training & Placements</h3>
+           <hr>
+        <p> To be an effective full-stack developer, you should acquire and continue upgrading your
+            knowledge of applicable programming language skills. Consider taking courses in relevant
+            languages—like Python, HTML, CSS, and Javascript.
+            <br>
+            To be an effective full-stack developer, you should acquire and continue upgrading your
+            knowledge of applicable programming language skills. Consider taking courses in relevant
+            languages—like Python, HTML, CSS, and Javascript.</p>
+            <hr>
+            <button class="but">Learn More</button>
+
+    </div>
+<div class="form">
+    <form>
+        <h2>Fill & Get upto <br>
+            25% OFF in<br>
+            Courese Fees</h2>
+            <label for="name"></label>
+            <input type="text" name="name" placeholder="Name*">
+            <br><br>
+            <label for="num"></label>
+            <input type="tel" name="num" placeholder="10 Digit Mobile Number*">
+            <br><br>
+            <label for="mail"></label>
+            <input type="email" name="mail" placeholder="Email*">
+            <br><br>
+            <label for="message"></label>
+            <input type="text" name="message" placeholder="Message*">
+            <br><br>
+            <button class="but">I am interested. Tell me more!</button>
+    </form>
+</div>
+
+
+
+</div>
+</body>
